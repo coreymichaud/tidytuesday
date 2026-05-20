@@ -1,0 +1,7 @@
+[project]
+name = "tidytuesday"
+version = "0.1.0"
+description = "My work for TidyTuesday :)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
