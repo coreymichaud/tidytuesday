@@ -11,3 +11,9 @@ wheels/
 
 # CSVs
 *.csv
+
+# pydytuesday extra info (removing because it will clog the github repo)
+*/*/*.md
+*/*/*.yaml
+*/*/*.R
+*/*/*.png
