@@ -44,22 +44,3 @@ INSERT IMAGE OF VISUAL HERE! When clicked, this should take you to the hosted da
 this week IF there was a only a singular visualization instead of a dedicated dashboard.
 
 The header of each image should take you to the week folder when clicked.
-
-## Run a given week
-
-1. **Clone repository and change directory:**
-    ```
-    git clone https://github.com/coreymichaud/tidytuesday.git
-    cd tidytuesday
-    ```
-
-2. **Sync with `uv`:**
-    ```
-    uv sync
-    ```
-
-3. **Change directories into a week and follow that week's `README.md` for specific instructions and information. For example:**
-    ```
-    cd 2026/week-30
-    uv run streamlit run app.py
-    ```
