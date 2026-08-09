@@ -16,7 +16,7 @@ tidytuesday/
 ## What is TidyTuesday?
 
 TidyTuesday is a social data project where each week a dataset is given for others to analyze, visualize, and post online. You can easily find these posts by searching on most social platforms for the hashtag
-#TidyTuesday or #PydyTuesday so that you can check out what people are creating! It's nice to see how others interpreted the same data you were looking at.
+`#TidyTuesday` or `#PydyTuesday` so that you can check out what people are creating! It's nice to see how others interpreted the same data you were looking at.
 
 ## Goals
 
