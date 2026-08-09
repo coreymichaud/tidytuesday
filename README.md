@@ -17,7 +17,7 @@ tidytuesday/
     └── week-#/
         ├── eda.py           # exploratory data analysis, rendered as a notebook
         ├── app.py           # streamlit dashboard
-        └── README.md        # weekly specific information, process, links, image of dashboard, etc.
+        └── README.md        # week-specific information, process, links, image of dashboard, etc.
 ```
 
 ## What is TidyTuesday?
