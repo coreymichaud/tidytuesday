@@ -33,7 +33,7 @@ tidytuesday/
 
 For all the following visualizations, if you click on the:
 
-- **Title:** it will take you to that week's folder within this repo.
+- **Title Y#W#:** it will take you to that week's folder within this repo.
 - **Image:** it will take you to the hosted dashboard, *OR* it will take you to the `README.md` for that week if it's a single, unhosted graph.
 
 ## [Y26W18:]() dashboard/viz name
