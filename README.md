@@ -15,9 +15,9 @@ If you want to check out any of the code, I've structured this repo as follows:
 tidytuesday/
 └── year/
     └── week-#/
-        ├── eda.py         # exploratory data analysis, rendered as a notebook
-        ├── app.py         # streamlit dashboard
-        └── README.md      # week-specific information, process, links, image of dashboard, ...
+        ├── eda.py       # exploratory data analysis, rendered as a notebook
+        ├── app.py       # streamlit dashboard
+        └── README.md    # week-specific information, process, links, image of dashboard, ...
 ```
 
 ## What is TidyTuesday?
