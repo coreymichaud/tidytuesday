@@ -1,8 +1,15 @@
+<!--
+NOTES:
+- I kind of like this person's README: https://github.com/z3tt/TidyTuesday because I was going to do a grid of images, but this way you can fully see the visualizations even if there is a lot.
+  If I were to do something like that, I would want it to have a title that links it to the folder, and clicking the picture would take you to streamlit cloud. I would have to explain that before the images.
+  Also, once I do this i would want to remove the "how to run" section because i don't think people care, unless i fr just keep it for the end, which i could.
+-->
+
 # My TidyTuesday Visualizations
 
 This repository is to store my work for the [TidyTuesday](https://github.com/rfordatascience/tidytuesday) weekly challenge.
 
-Feel free to search around for my code! The way I've structured this is as follows:
+If you want to check out any of the code, I've structured this repo as follows:
 
 ```
 tidytuesday/
@@ -10,12 +17,12 @@ tidytuesday/
     └── week-#/
         ├── eda.py           # exploratory data analysis, rendered as a notebook
         ├── app.py           # streamlit dashboard
-        └── README.md        # data information, process, links, image of dashboard, etc.
+        └── README.md        # weekly specific information, process, links, image of dashboard, etc.
 ```
 
 ## What is TidyTuesday?
 
-TidyTuesday is a social data project where each week a dataset is given for others to analyze, visualize, and post online. You can easily find these posts by searching on most social platforms for the hashtag
+TidyTuesday is a social data project organized by the [Data Science Learning Community](https://dslc.io/), where each week a dataset is given for others to analyze, visualize, and post online. You can easily find these posts by searching on most social platforms for the hashtag
 `#TidyTuesday` or `#PydyTuesday` so that you can check out what people are creating! It's nice to see how others interpreted the same data you were looking at.
 
 ## Goals
