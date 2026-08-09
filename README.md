@@ -15,15 +15,18 @@ If you want to check out any of the code, I've structured this repo as follows:
 tidytuesday/
 └── year/
     └── week-#/
-        ├── eda.py       # exploratory data analysis, rendered as a notebook
-        ├── app.py       # streamlit dashboard
-        └── README.md    # week-specific information, process, links, image of dashboard, ...
+        ├── eda.ipynb      # exploratory data analysis, rendered as a notebook
+        ├── app.py         # streamlit dashboard (if no single visualization)
+        ├── vizname.ipynb  # final visualization, rendered a a notebook (if no dashboard)
+        ├── vizname.png    # image of dashboard or single visualization
+        └── README.md      # week-specific information, process, links, image of viz, ...
 ```
 
 ## What is TidyTuesday?
 
-TidyTuesday is a social data project organized by the [Data Science Learning Community](https://dslc.io/), where each week a dataset is given for others to analyze, visualize, and post online. You can easily find these posts by searching on most social platforms for the hashtag
-`#TidyTuesday` or `#PydyTuesday` so that you can check out what people are creating! It's nice to see how others interpreted the same data you were looking at.
+TidyTuesday is a social data project organized by the [Data Science Learning Community](https://dslc.io/), where each week a dataset is given for others to analyze, visualize, and post online.
+
+You can easily find these posts by searching on most social platforms for the hashtag `#TidyTuesday` or `#PydyTuesday` so that you can check out what people are creating! It's nice to see how others interpreted the same data you were looking at.
 
 ## Goals
 
