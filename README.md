@@ -1,8 +1,6 @@
 <!--
 NOTES:
-- I kind of like this person's README: https://github.com/z3tt/TidyTuesday because I was going to do a grid of images, but this way you can fully see the visualizations even if there is a lot.
-  If I were to do something like that, I would want it to have a title that links it to the folder, and clicking the picture would take you to streamlit cloud. I would have to explain that before the images.
-  Also, once I do this i would want to remove the "how to run" section because i don't think people care, unless i fr just keep it for the end, which i could.
+- corey!! if you post this on linkedin, maybe also add a link to that post?
 -->
 
 # My TidyTuesday Visualizations
@@ -37,10 +35,3 @@ For all the following visualizations, if you click on the:
 - **Image:** it will take you to the hosted dashboard, *OR* it will take you to the `README.md` for that week if it's a single, unhosted graph.
 
 ## [Y26W18:]() dashboard/viz name
-
-INSERT IMAGE OF VISUAL HERE! When clicked, this should take you to the hosted dashboard OR the README.md of
-this week IF there was a only a singular visualization instead of a dedicated dashboard.
-
-The header of each image should take you to the week folder when clicked.
-
-Oh do it where only the Y#W# is the link.
