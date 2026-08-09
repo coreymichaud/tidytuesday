@@ -9,6 +9,8 @@ NOTES:
 
 This repository is to store my work for the [TidyTuesday](https://github.com/rfordatascience/tidytuesday) weekly challenge.
 
+If you want to quickly see my work, check out the [Weekly Visualizations](#weekly-visualizations) section.
+
 ## What is TidyTuesday?
 
 TidyTuesday is a social data project organized by the [Data Science Learning Community](https://dslc.io/), where each week a dataset is given for others to analyze, visualize, and post online.
@@ -29,12 +31,19 @@ tidytuesday/
         ├── vizname.png    # image of dashboard or single visualization
         └── README.md      # week-specific information, process, links, image of viz, ...
 ```
+# Weekly Visualizations
 
-## Goals
+For all the following visualizations, if you click on the:
 
-1. Practice exploratory data analysis on new data
-2. Strengthen my data visualization and storytelling skills
-3. Build a public portfolio showcasing mainly data visualization
+- **Title:** it will take you to that week's folder within this repo.
+- **Image:** it will take you to the hosted dashboard, *OR* it will take you to the `README.md` for that week if it's a single graph.
+
+## Y26W18: dashboard/viz name
+
+INSERT IMAGE OF VISUAL HERE! When clicked, this should take you to the hosted dashboard OR the README.md of
+this week IF there was a only a singular visualization instead of a dedicated dashboard.
+
+The header of each image should take you to the week folder when clicked.
 
 ## Run a given week
 
