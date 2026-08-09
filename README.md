@@ -36,9 +36,11 @@ For all the following visualizations, if you click on the:
 - **Title:** it will take you to that week's folder within this repo.
 - **Image:** it will take you to the hosted dashboard, *OR* it will take you to the `README.md` for that week if it's a single, unhosted graph.
 
-## Y26W18: dashboard/viz name
+## [Y26W18:]() dashboard/viz name
 
 INSERT IMAGE OF VISUAL HERE! When clicked, this should take you to the hosted dashboard OR the README.md of
 this week IF there was a only a singular visualization instead of a dedicated dashboard.
 
 The header of each image should take you to the week folder when clicked.
+
+Oh do it where only the Y#W# is the link.
