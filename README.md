@@ -10,7 +10,7 @@ tidytuesday/
     └── week-#/
         ├── eda.py           # exploratory data analysis, rendered as a notebook
         ├── app.py           # streamlit dashboard
-        └── README.md        # weekly information, thought process, links, picture of dashboard, etc.
+        └── README.md        # data information, process, links, image of dashboard, etc.
 ```
 
 ## What is TidyTuesday?
@@ -24,7 +24,7 @@ TidyTuesday is a social data project where each week a dataset is given for othe
 2. Strengthen my data visualization and storytelling skills
 3. Build a public portfolio showcasing mainly data visualization
 
-## Running a week
+## Run a given week
 
 1. **Clone repository and change directory:**
     ```
