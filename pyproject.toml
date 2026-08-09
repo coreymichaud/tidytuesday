@@ -8,3 +8,10 @@ dependencies = [
     "ipykernel>=7.3.0",
     "pydytuesday>=0.1.2",
 ]
+
+[tool.setuptools]
+packages = ["utils"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

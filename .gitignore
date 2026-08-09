@@ -12,8 +12,9 @@ wheels/
 # CSVs
 *.csv
 
-# pydytuesday extra info (removing because it will clog the github repo)
-*/*/*.md
-*/*/*.yaml
-*/*/*.R
-*/*/*.png
+# PyDyTuesday extra info (removing because it will clog the github repo)
+# If you're reading this (hi!), you can still run the code for a week and it will download everything locally
+data/
+
+# Package
+*.egg-info/
