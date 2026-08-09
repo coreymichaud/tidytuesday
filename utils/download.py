@@ -1,20 +1,28 @@
-import os
+import inspect
 import contextlib
+from pathlib import Path
 import pydytuesday
 
-def download_week(year: int, week_num: int, output_dir: str = "data") -> None:
+
+def download_week(year: int, week_num: int) -> None:
     """
-    Downloads the specified week of data from the PydyTuesday library.
-
-    Args:
-        year (int): The year of the week to download.
-        week_num (int): The week number to download.
-        output_dir (str): The directory to save the downloaded data. Defaults to "data".
+    Downloads the specified week of data from PydyTuesday into a data/
+    folder next to whatever file (script or notebook) called this.
     """
+    caller_globals = inspect.stack()[1].frame.f_globals
+    caller_file = caller_globals.get("__file__")
 
-    # Creates data directory within the week folder this is called from
-    os.makedirs(output_dir, exist_ok=True)
+    if caller_file:
+        # called from a regular .py script — use its actual location,
+        # regardless of what the current working directory happens to be
+        caller_dir = Path(caller_file).resolve().parent
+    else:
+        # called from a notebook/REPL — no __file__ available,
+        # so fall back to cwd (Jupyter sets this to the notebook's folder)
+        caller_dir = Path.cwd()
 
-    # Downloads data into data/ folder
+    output_dir = caller_dir / "data"
+    output_dir.mkdir(exist_ok=True)
+
     with contextlib.chdir(output_dir):
         pydytuesday.get_week(year, week_num)
