@@ -21,3 +21,6 @@ data/
 
 # Ruff
 .ruff_cache/
+
+# README template for each week (created by me, just so I can standardize these)
+WEEK_TEMPLATE_README.md
