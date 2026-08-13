@@ -34,6 +34,6 @@ For all the following visualizations, if you click on the:
 - **Title Y#W#:** it will take you to that week's folder within this repo.
 - **Image:** it will take you to the hosted dashboard, *OR* it will take you to the `README.md` for that week if it's a single, unhosted graph.
 
-## [Y26W32:]() BPT Diagnosis Diagram
+## [Y26W32:](2026/week-32/) BPT Diagnosis Diagram
 
 [![Y26W32 Graph: BPT Diagnosis Diagram](2026/week-32/viz.png)](2026/week-32/README.md)
