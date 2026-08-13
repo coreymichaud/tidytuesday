@@ -21,11 +21,11 @@ If you want to check out any of the code, I've structured this repo as follows:
 tidytuesday/
 └── year/
     └── week-#/
-        ├── eda.ipynb      # exploratory data analysis, rendered as a notebook
-        ├── app.py         # streamlit dashboard (if no single visualization)
-        ├── vizname.ipynb  # final visualization, rendered a a notebook (if no dashboard)
-        ├── vizname.png    # image of dashboard or single visualization
-        └── README.md      # week-specific information, process, links, image of viz, ...
+        ├── eda.ipynb       # exploratory data analysis, rendered as a notebook
+        ├── app.py          # streamlit dashboard (if no single visualization)
+        ├── viztitle.ipynb  # final visualization, rendered a a notebook (if no dashboard)
+        ├── viztitle.png    # image of dashboard or single visualization
+        └── README.md       # week-specific information, process, links, image of viz, ...
 ```
 # Weekly Visualizations
 
@@ -34,4 +34,6 @@ For all the following visualizations, if you click on the:
 - **Title Y#W#:** it will take you to that week's folder within this repo.
 - **Image:** it will take you to the hosted dashboard, *OR* it will take you to the `README.md` for that week if it's a single, unhosted graph.
 
-## [Y26W18:]() dashboard/viz name
+## [Y26W32:]() BPT Diagnosis Diagram
+
+[![Y26W32 Graph: BPT Diagnosis Diagram](2026/week-32/viz.png)](2026/week-32/README.md)
