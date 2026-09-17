@@ -23,7 +23,7 @@ tidytuesday/
     └── week-#/
         ├── eda.ipynb       # exploratory data analysis, rendered as a notebook
         ├── app.py          # streamlit dashboard (if no single visualization)
-        ├── viztitle.ipynb  # final visualization, rendered a a notebook (if no dashboard)
+        ├── viztitle.ipynb  # final visualization, rendered as a notebook (if no dashboard)
         ├── viztitle.png    # image of dashboard or single visualization
         └── README.md       # week-specific information, process, links, image of viz, ...
 ```
