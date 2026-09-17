@@ -36,4 +36,4 @@ For all the following visualizations, if you click on the:
 
 ## [Y26W32:](2026/week-32/) BPT Diagnosis Diagram
 
-[![Y26W32 Graph: BPT Diagnosis Diagram](2026/week-32/viz.png)](2026/week-32/README.md)
+[![Y26W32 Graph: BPT Diagnosis Diagram](2026/week-32/bpt-diagnosis-diagram.png)](2026/week-32/README.md)
