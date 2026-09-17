@@ -1,18 +1,14 @@
-# TITLE
+# BPT Diagnosis Diagram
 
 For `#TidyTuesday` [Y26W32](https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-08-11),
-the data is... 
-
-The data is from Ho, Filippenko & Sargent (1995, 1997, 2009) on VizieR. If you'd like to see how the TidyTuesday team
+the data is from Ho, Filippenko & Sargent (1995, 1997, 2009) on VizieR. If you'd like to see how the TidyTuesday team
 cleaned and formatted the datasets for this week, you can check it out on the week's [cleaning section](https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-08-11#cleaning-script).
 
-## Visualization (give this a name)
+## Visualization
 
-do just a png (with alt text) of the viz
+![Y26W32 Graph: BPT Diagnosis Diagram](bpt-diagnosis-diagram.png)
 
 ## Data Dictionary
-
-Explain it a little
 
 `palomar_emission_lines.csv`
 |variable    |class     |description                           |
